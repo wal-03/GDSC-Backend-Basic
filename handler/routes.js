@@ -4,7 +4,7 @@ const {setupUserHandler} = require('./userHandler.js')
 
 /**
  * 
- * @param {Router} router 
+ * @param {express.Express} app 
  */
 
 function setupHandler(router) {

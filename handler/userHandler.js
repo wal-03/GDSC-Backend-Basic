@@ -15,7 +15,7 @@ function setupUserHandler(router) {
 
     router.get('/user', (req, res) => {
         // console.log(req.params, req.query)
-        console.log("this is get user")
+        // console.log("this is get user")
         res.json({
           "data": user
         })
